@@ -1,0 +1,86 @@
+@import "nullstyle.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+/* =================================================================================================================== */
+/* Если подключаем шрифты вручную */
+
+/* @font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	}
+	
+	*/
+	/* ================================================================================================================ */
+
+	/* /* &display=swap - дописываем если нету (когда используем подгрузку шрифтов через @import/link */
+
+	/* ================================================================================================================ */
+	body{
+		font-family: 'Lato, sans-serif';
+		font-size: 16px;
+	}
+
+
+	.wrapper {
+		min-height: 100%;
+		overflow: hidden;
+		max-width: 810px;
+		margin: 0 auto;
+	}
+
+	.top{
+		font-size: 46px;
+		font-weight: 900;
+		line-height: 1.3;
+		margin: 80px 0 92px 0;
+	}
+
+	.image{
+		margin-bottom: 60px;
+	}
+
+	.title-one{
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.5;
+		margin-bottom: 24px;
+	}
+
+	.text{
+		line-height: 1.6;
+	}
+
+	.paragraph{
+		margin-bottom: 40px;
+	}
+	div .text p + p{
+		margin-bottom: 48px;
+	}
+
+	.title-two{
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 1.5;
+		margin: 0 0 48px 58px;
+	}
+
+	.paragraph-two{
+		margin-bottom: 25px;
+	}
+
+	.list{
+		margin: 0 0 5px 30px;
+	}
+
+	.li-last-child{
+		margin-bottom: 25px;
+	}
+
+.figma{
+	padding: 40px 0;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-shadow: 5px 5px 2px rgb(170, 99, 161);
+}
