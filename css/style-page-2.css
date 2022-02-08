@@ -26,6 +26,9 @@
 	.wrapper {
 		min-height: 100%;
 		overflow: hidden;
+	}
+
+	.content{
 		max-width: 1100px;
 		margin: 0 auto;
 	}
@@ -36,7 +39,7 @@
 		margin: 0 auto;
 	}
 
-	.name{
+	h1{
 		text-align: center;
 		font-size: 30px;
 		color: red;
@@ -57,7 +60,7 @@
 		line-height: 1.5;
 	}
 
-	h4{
+	h3{
 		font-weight: 700;
 		font-size: 22px;
 		margin-bottom: 20px;
@@ -151,7 +154,7 @@ span.block{
 	overflow: hidden;
 }
 
-.container{
+.content-footer{
 	max-width: 1100px;
 	margin: 0 auto;
 	padding: 10px 0;
