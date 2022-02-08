@@ -71,12 +71,10 @@
 	}
 
 	.list{
-		margin: 0 0 5px 30px;
-	}
-
-	.li-last-child{
+		padding-left: 30px;
 		margin-bottom: 25px;
 	}
+
 
 .figma{
 	padding: 40px 0;
